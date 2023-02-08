@@ -1,0 +1,13 @@
+{
+  "id": "phoenix",
+  "name": "Install phoenix",
+  "version": "1.0.0",
+  "options": {
+    "version": {
+      "type": "string",
+      "proposals": ["1.6.15", "1.7.0-rc.2"],
+      "default": "1.6.15"
+    }
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}

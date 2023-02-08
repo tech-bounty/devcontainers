@@ -1,0 +1,6 @@
+{
+  "id": "hex",
+  "name": "Install hex",
+  "version": "1.0.0",
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
