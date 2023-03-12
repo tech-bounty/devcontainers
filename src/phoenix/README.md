@@ -15,7 +15,7 @@
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | - | string | 1.6.15 |
+| version | - | string | 1.7.1 |
 
 
 
