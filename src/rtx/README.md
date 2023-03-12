@@ -1,5 +1,5 @@
 
-# Install rtx (rtx)
+# rtx (rtx)
 
 
 
