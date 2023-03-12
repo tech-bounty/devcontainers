@@ -39,4 +39,6 @@ else
 fi
 
 su ${USERNAME} -c "curl https://rtx.pub/install.sh | sh"
+
+echo 'PATH="${user_rc_path}/.local/share/rtx/bin:$PATH"' >> "${user_rc_path}/.bashrc"
 echo 'eval "$(rtx activate bash)"' >> "${user_rc_path}/.bashrc"
