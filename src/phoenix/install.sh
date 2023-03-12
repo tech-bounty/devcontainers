@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 USERNAME="${USERNAME:-"${_REMOTE_USER:-"automatic"}"}"
-PHOENIX_VERSION=${VERSION:-1.6.15}
+PHOENIX_VERSION=${VERSION:-1.7.1}
 
 set -e
 
