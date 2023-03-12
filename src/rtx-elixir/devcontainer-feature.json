@@ -1,7 +1,7 @@
 {
   "id": "rtx-elixir",
   "name": "Elixir (Rtx)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "options": {},
   "installsAfter": ["ghcr.io/tech-bounty/devcontainers/rtx"]
 }
