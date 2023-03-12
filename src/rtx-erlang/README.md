@@ -1,5 +1,5 @@
 
-# NodeJS (Rtx) (rtx-nodejs)
+# Erlang (Rtx) (rtx-erlang)
 
 
 
@@ -7,7 +7,7 @@
 
 ```json
 "features": {
-    "ghcr.io/tech-bounty/devcontainers/rtx-nodejs:1": {}
+    "ghcr.io/tech-bounty/devcontainers/rtx-erlang:1": {}
 }
 ```
 
