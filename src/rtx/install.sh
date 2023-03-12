@@ -42,8 +42,3 @@ fi
 curl https://rtx.pub/install.sh | sh
 
 echo 'eval "$(rtx activate bash)"' >> "${user_rc_path}/.bashrc"
-
-rtx_config_path = "${user_rc_path}/.config/rtx"
-
-mkdir -p "${rtx_config_path}"
-cp "${FEATURE_DIR}/config/config.toml" >> "${rtx_config_path}"
