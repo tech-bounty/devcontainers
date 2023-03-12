@@ -1,7 +1,7 @@
 {
   "id": "rtx",
-  "name": "Install rtx",
-  "version": "1.0.1",
+  "name": "rtx",
+  "version": "1.0.2",
   "options": {},
   "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }

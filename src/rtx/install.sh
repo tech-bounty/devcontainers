@@ -38,7 +38,5 @@ else
     fi
 fi
 
-# Install needed packages and setup non-root user. Use a separate RUN statement to add your own dependencies.
-curl https://rtx.pub/install.sh | sh
-
+su ${USERNAME} -c "curl https://rtx.pub/install.sh | sh"
 echo 'eval "$(rtx activate bash)"' >> "${user_rc_path}/.bashrc"
