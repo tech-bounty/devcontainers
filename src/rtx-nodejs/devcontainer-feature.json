@@ -1,7 +1,7 @@
 {
   "id": "rtx-nodejs",
   "name": "NodeJS (Rtx)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "options": {},
   "installsAfter": ["ghcr.io/tech-bounty/devcontainers/rtx"]
 }

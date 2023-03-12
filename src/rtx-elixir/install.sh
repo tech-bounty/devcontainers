@@ -10,5 +10,4 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1
 fi
 
-# Install needed packages and setup non-root user. Use a separate RUN statement to add your own dependencies.
-rtx plugin install elixir
+su ${USERNAME} -c "rtx plugin install elixir"
